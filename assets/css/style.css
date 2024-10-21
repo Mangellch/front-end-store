@@ -97,6 +97,7 @@ section {
     font-family: var(--fuentePrincipal);
     color: var(--secundario);
     font-size: 3rem;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
