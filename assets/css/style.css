@@ -107,16 +107,6 @@ section {
 
 /*Aside*/
 
-.aside__texto {
-    text-align: left;
-    
-}
-
-.aside__categoria {
-    display: flex;
-    flex-direction: column;
-}
-
 .categoria__texto {
     color: #FFCE00;
 }
