@@ -1,9 +1,10 @@
 :root {
     --primario:#9c36a0;
     --primarioOscuro: #88159c;
-    --secundario: #FFCE00;
-    --secundarioOscuro: rgb(233, 187, 2);
+    --secundario: #f6c70bc3;
+    --secundarioActivo: #fdd638;
     --blanco: #FFF;
+    --blancoSecundario: #ffffffca;
     --negro: #000;
     --fuentePrincipal: 'Staatliches', sans-serif;
 }
@@ -100,6 +101,10 @@ section {
     text-decoration: none;
 }
 
+.navegacion__texto:hover {
+    color: var(--secundarioActivo);
+}
+
 @media (min-width: 768px) {
     .grid {
         grid-template-columns: repeat(3, 1fr);
@@ -118,6 +123,10 @@ section {
     font-family: var(--fuentePrincipal);
     font-size: 20px;
     color: var(--blanco);
+}
+
+.link__categoria:hover {
+    color: var(--blancoSecundario);
 }
 
 /*Productos*/
